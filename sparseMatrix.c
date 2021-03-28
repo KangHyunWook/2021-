@@ -62,6 +62,7 @@ void mmult(term a[], term b[], term d[]) {
 }				
 	
 int main() {
+	//Initialisation of Sparse Matrix A
 	a[0].row=3;	a[0].col=3; a[0].value = 6;	
 	a[1].row=0, a[1].col=1, a[1].value = 1;	
 	a[2].row=0, a[2].col=2, a[2].value =2;	
@@ -70,6 +71,7 @@ int main() {
 	a[5].row=2, a[5].col=1, a[5].value =1;	
 	a[6].row=2, a[6].col=2, a[6].value =1;	
 	
+	//Initialisation of Sparse Matrix B
 	b[0].row = 3, b[0].col = 3, b[0].value=4;	
 	b[1].row=0, b[1].col=0, b[1].value=1;
 	b[2].row=0, b[2].col=1, b[2].value=3;
