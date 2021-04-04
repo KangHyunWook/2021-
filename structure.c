@@ -83,7 +83,7 @@ char *argv[];
             break;
         }
         printf("How many children? ");
-        scanf("%d", female.children);
+        scanf("%d", &female.children);
             
         break;
     default: 
