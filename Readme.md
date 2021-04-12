@@ -1,4 +1,4 @@
-2021년 자료구조
+<h1>2021년 자료구조</h1>
 
 유튜브 링크:
 https://www.youtube.com/watch?v=NT61ErcRlcs
